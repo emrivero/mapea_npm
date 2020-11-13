@@ -1,0 +1,28 @@
+{
+  "name": "mapea_npm",
+  "version": "1.0.0",
+  "description": "Proyecto base de Mapea npm",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config=webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "EUPL",
+  "dependencies": {
+    "mapea-prueba": "0.0.18"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.4.4",
+    "html-loader": "^1.3.2",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "css-loader": "^5.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
